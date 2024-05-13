@@ -1,7 +1,7 @@
 import iceCreamCss from './IceCream.module.css';
 import Scoop from './Scoop/Scoop';
 
-const IceCream = ({scoops}) => {
+const IceCream = ({scoops = []}) => {
   return (
     <div>
         <div className={iceCreamCss.icecream}>
